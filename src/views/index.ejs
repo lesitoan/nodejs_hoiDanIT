@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -57,6 +57,31 @@
 
             </table>
         </div>
+    </div>
+
+    <div class="create-user-container">
+        <form action="/create-new-user" method="POST">
+            <div><b>create a new user:</b></div>
+            <div class="items">
+                <lable>FirstName:</lable>
+                <input name="firstName" type="text">
+            </div>
+            <div class="items">
+                <lable>lastName:</lable>
+                <input name="lastName" type="text">
+            </div>
+            <div class="items">
+                <lable>email:</lable>
+                <input name="email" type="email">
+            </div>
+            <div class="items">
+                <lable>address:</lable>
+                <input name="address" type="text">
+            </div>
+            <div>
+                <button class="btn" type="submit">submit</button>
+            </div>
+        </form>
     </div>
 
 </body>

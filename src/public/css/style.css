@@ -26,3 +26,25 @@ body {
   background-color: #04AA6D;
   color: white;
 }
+
+.create-user-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-user-container .items {
+  margin-top: 18px;
+}
+
+.create-user-container label {
+  min-width: 400px;
+}
+
+.btn {
+  min-width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+}
