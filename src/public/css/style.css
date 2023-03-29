@@ -48,3 +48,14 @@ body {
   margin-top: 20px;
   cursor: pointer;
 }
+
+.update-user-container {
+  margin: 100px;
+  text-align: center;
+
+}
+
+.update-user-container lable {
+  display: block;
+  padding-top: 18px;
+}
