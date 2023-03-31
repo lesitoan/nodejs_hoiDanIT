@@ -45,6 +45,7 @@ body {
 
 .btn {
   min-width: 100px;
+  min-height: 50px;
   margin-top: 20px;
   cursor: pointer;
 }
@@ -58,4 +59,16 @@ body {
 .update-user-container lable {
   display: block;
   padding-top: 18px;
+}
+
+
+.upload-file-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.upload {
+  padding-left: 140px;
 }

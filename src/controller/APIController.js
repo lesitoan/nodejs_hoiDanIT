@@ -49,8 +49,6 @@ let deleteUserAPI = async (req, res) => {
     })
 }
 
-
-
 module.exports = {
     getAllUsersAPI, createNewUserAPI, updateUserAPI, deleteUserAPI
 }
